@@ -1,0 +1,106 @@
+
+body{
+    text-align: center;
+margin: 0;
+padding: 0;
+ height: 100vh;
+}
+.top-container{
+    background-color:  #e4f9f5;
+    position: relative;
+    padding-top: 150px;
+    
+ }
+ .top-cloud{
+    position: absolute;
+    left: 200px;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 200px;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 70px;
+    font-family: cursive;
+}
+h2{
+    color: #66bfbf;
+    font-size: 55px;
+    font-family: cursive;
+}
+h3{
+    color: #11999e;
+
+}
+.pro{
+    text-decoration: underline;
+}
+ .kaneki{
+    height: 200px;
+    border-radius: 40%;
+ }
+ 
+.profile{
+    padding-top: 200px
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    font-size: 20px;
+}
+.meme{
+    height: 200px;
+    width: 200px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.coding{
+    height: 200px;
+    width: 400px;
+    font-size: 20px
+}
+.contact{
+    padding-top: 150px;
+    height: 200px;
+    font-size: 20px
+}
+.pp{
+    width: 35%;
+    margin: 60px auto 40px;
+}
+button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 40%;
+    background-color: #11999e;
+    color: white;
+    font-size: 20px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    height: 100px;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+a{
+    color: #11999e;
+    margin: 10px 20px;
+    font-family: cursive;
+}
+.copyright{
+    padding-top: 50px;
+    color: white;
+}
